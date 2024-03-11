@@ -21,7 +21,7 @@
 
 
   nav {
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     position: relative;
     top:0;
   }
@@ -85,70 +85,13 @@
   
   
   
-  
 
 
 
 
 
 
-  .row {
-    display: -ms-flexbox; 
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
 
-
-  .column {
-    -ms-flex: 25%; 
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-
-
-  h1 {
-text-align: center;
-
-  }
-
-
-  .image-container {
-    display: flex;
-  }
-  
-  .image-wrapper {
-    position: relative;
-    margin: 10px;
-  }
-  
-  .image-wrapper img {
-    width: 100% /* Set the width of the images */
-
-  }
-  
-  .text-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white;
-    padding: 125px;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth transition */
-  }
-  
-  .image-wrapper:hover .text-overlay {
-    opacity: 1; /* Display text on hover */
-  }
 
   
   .myDiv2 {
